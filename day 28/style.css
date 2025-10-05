@@ -1,0 +1,27 @@
+
+body{
+    background-color: red;
+}
+
+@media only schreen and (max-width: 455px) {
+    body{
+        background-color: rgb(34, 8, 182);
+    }
+}
+
+.boxes{
+    flex-direction: column;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box{
+    width: 144px;
+    height: 144px;
+    background-color: skyblue;
+    margin: 3px;
+    padding: 3px;
+
+}
