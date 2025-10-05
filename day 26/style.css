@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.box1 {
+    background-color: aqua;
+    /* position: sticky;
+    top: 0px;
+    height: 144px;
+    width: 100%;
+    margin: 0;
+    padding: 0; */
+    position: absolute;
+    top: 0px;
+    left: 3px;
+
+}
+
+.box2 {
+    background-color: azure;
+    /* position: relative;
+    top: 34px;
+    left: 56px; */
+
+}
+
+.box3 {
+    background-color: brown;
+    /* position: fixed;
+    bottom: 0px;
+    left: 8vw;
+    height: 111px; */
+}
+
+.box4 {
+    background-color: chocolate;
+}
+
+
+.box {
+    height: 344px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+}
+
+.parent {
+    /* transform, filter, or perspective properties cam also make an element appear as positioned */
+    padding: 43px;
+    margin: 34px;
+    border: 3px solid purple;
+    /* position: relative; */
+    /* transform: translate(0); */
+    /* filter: invert(0); */
+    /* perspective: 0em; */
+} 
