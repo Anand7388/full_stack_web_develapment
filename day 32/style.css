@@ -1,0 +1,25 @@
+:root{
+    --primary-color:rgb(158, 87, 175);
+    --text-color:white;
+    --secondary-color:rgb(190, 156, 218);
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: var(--primary-color);
+    padding: 12px 0;
+}
+
+u1 li {
+    list-style: none;
+    display: inline;
+    padding: 23px;
+    color: white;
+}
