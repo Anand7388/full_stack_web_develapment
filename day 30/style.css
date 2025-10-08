@@ -1,0 +1,14 @@
+.cards {
+    border: 2px solid black;
+    /* contain floated children so border wraps them */
+    display: flow-root;
+    
+}
+
+img {
+    float: left;
+    
+}
+.card{
+    border: 2px solid red;
+}
