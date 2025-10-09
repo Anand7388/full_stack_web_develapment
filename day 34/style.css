@@ -1,0 +1,51 @@
+.container {
+        /*
+            .container selects the wrapper div with class="container" in the HTML.
+            Purpose: visually surround the group of item boxes and create a layout.
+
+            Properties:
+            - border: 2px solid rgb(14, 14, 12);
+                Draws a 2px solid border around the container. The color is a near-black
+                value in rgb form. You can change to a named color like 'yellow' if you
+                prefer.
+
+            - display: grid;
+                Enables CSS Grid layout inside the container so child elements (.items)
+                can be placed in columns/rows.
+
+            - grid-template-columns: 120px 100px;
+                Defines two columns: the first column is 120px wide, the second is 100px.
+                If there are more child items than columns, grid will create additional
+                rows automatically. Adjust these values for different column widths.
+        */
+        border: 2px solid rgb(14, 14, 12);
+        display: grid;
+        grid-template-columns: 120px 100px;
+        grid-template-rows: 100px 100px 100px;
+}
+
+.items {
+        /*
+            .items selects each item box in the HTML: <div class="items">1</div>
+            (Note: class name is plural in the markup). This block styles the small
+            numbered boxes inside the container.
+
+            Properties:
+            - border: 2px solid red;
+                Adds a red 2px border around each item so the box is visible.
+
+            - height / width:
+                Sets a fixed height and width for the boxes (45px by 54px). Fixed sizes
+                keep the boxes uniform. If content overflows, consider using padding or
+                min-height/min-width instead.
+
+            - box-sizing: border-box;
+                Ensures that the border is included within the specified width/height
+                (so adding a border doesn't increase the total size of the element).
+        */
+        /* HTML uses class="items" (plural). Previously CSS targeted .item so borders didn't apply */
+        border: 2px solid red;
+        height: 45px;
+        width: 54px;
+        
+}
