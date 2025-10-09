@@ -1,0 +1,16 @@
+.logo {
+    width: 40px;
+    height: 23px;
+    background-color: blue;
+}
+
+nav {
+    display: flex;
+}
+
+.right ul {
+    display: flex;
+}
+.right ul li{
+    list-style: none;
+}
