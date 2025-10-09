@@ -1,0 +1,23 @@
+
+.container{
+    background-color: antiquewhite;
+    width: 80vw;
+    height: 60vh;
+    
+
+}
+
+.box{
+    background-color: aquamarine;
+    width: 25vw;
+    height: 15vh;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    /* transition: all 3s case-in-out 1s; */
+
+}
+.translate{
+    transform: translateX(10%) translateY(10%);
+}
