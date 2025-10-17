@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Optional: center text inside the inner div */
+.center-container > div {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background-color: #e61c1c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#save-btn {
+    background-color: #2ff068;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
